@@ -1,0 +1,17 @@
+using System;
+namespace VacationBooksList
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int bookNumber = int.Parse(Console.ReadLine());
+            double numberForHour = double.Parse(Console.ReadLine());
+            int daysNumber = int.Parse(Console.ReadLine());
+            double bookHours = ((bookNumber / numberForHour) / daysNumber);
+            Console.WriteLine(bookHours);
+
+
+        }
+    }
+}
